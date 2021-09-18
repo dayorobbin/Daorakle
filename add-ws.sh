@@ -40,7 +40,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "https://t.me/sampiiiiu",
+      "path": "https://t.me/daorakle",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -55,7 +55,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "https://t.me/sampiiiiu",
+      "path": "https://t.me/daorakle",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -78,7 +78,7 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 2"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path           : https://t.me/sampiiiiu"
+echo -e "path           : https://t.me/daorakle"
 echo -e "Created        : $created"
 echo -e "Expired        : $exp"
 echo -e "================================="
@@ -87,5 +87,5 @@ echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e ""
-echo -e "Script By @sampiiiiu"
+echo -e "Script By @daorakle"
 echo -e ""
